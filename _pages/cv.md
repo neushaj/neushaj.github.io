@@ -7,58 +7,53 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Ph.D. in Computer Engineering**, University of California, San Diego — Sep. 2023–Present  
+Advisor: Prof. Farinaz Koushanfar  
+M.S. earned along the way (Dec. 2025), GPA: 3.77/4
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**B.Sc. in Electrical Engineering**, University of Tehran — Sep. 2018–Jun. 2023  
+Major: Digital Systems Engineering; Minor: Computer Engineering  
+Thesis: ASIC Implementation of Neural Networks, GPA: 3.95/4
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Industry Experience
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**ChipSage Labs, LLM Infrastructure Research Intern** — Aug. 2026–Sep. 2026  
+Developed an agentic RTL generation/debugging system, fine-tuned a 7B code LLM, and built evaluation pipelines for tool-based verification.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Cisco Systems, AI Researcher Intern, Foundation AI** — Jun. 2025–Dec. 2025  
+Adapted LLaMA-based models for cybersecurity, improved structured-output compliance using SFT and GRPO, and worked on large-scale LLM deployment and synthetic data generation.
+
+**Paya Communication Industries** — 2020–2021  
+Worked on IoT communication hardware, Python/Flask backend services, and VoIP programming.
+
+## Research Experience
+
+**ACES Laboratory, UC San Diego** — 2023–Present  
+Research on code LLM watermarking, agentic RTL debugging, secure/efficient LLM systems, hardware security, and distributed learning.
+
+**HiPEAL Laboratory, University of Tehran** — 2022–2023  
+Designed a custom ASIC architecture for DNN acceleration.
+
+**CAD Laboratory, University of Tehran** — 2020–2022  
+Designed and implemented AFTAB, a RISC-V processor in Verilog.
+
+## Selected Publications
+
+See the full [Publications](/publications/) page or my [Google Scholar](https://scholar.google.com/citations?user=NV4SPFoAAAAJ&hl=en).
+
+## Skills
+
+**LLM / ML:** LLM post-training, SFT/RLHF, PEFT, agentic systems, watermarking, synthetic data, evaluation  
+**Programming:** Python, C/C++, Verilog/SystemVerilog, SystemC, MATLAB, LaTeX  
+**Frameworks:** PyTorch, Hugging Face, TRL, vLLM, TensorFlow, NumPy  
+**EDA / Hardware:** Design Compiler, Innovus, Vivado, Quartus, Verilator, Icarus Verilog  
+**Systems:** Linux, AWS, Windows
+
+## Honors & Leadership
+
+- President, Women in Electrical and Computer Engineering (WeCe), UC San Diego — 2025–Present
+- ECE Graduate Student Service Award, UC San Diego — 2026
+- DAC Young Fellows Program — 2024
+- ECE Department Fellowship, UC San Diego — 2023

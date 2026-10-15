@@ -8,9 +8,9 @@ name                     : &name "Neusha Javidnia"
 description              : &description "PhD researcher in trustworthy and efficient AI, code LLMs, and AI for hardware design"
 
 # Replace YOUR_GITHUB_USERNAME
-url                      : "https://YOUR_GITHUB_USERNAME.github.io"
+url                      : "https://neushaj.github.io"
 baseurl                  : ""
-repository               : "YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME.github.io"
+repository               : "neushaj/neushaj.github.io"
 
 
 # Site Author

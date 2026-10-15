@@ -6,31 +6,32 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div>
 {% endif %}
 
-{% include base_path %}
+## Selected Publications
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+1. **Key, Value, Compress: A Systematic Exploration of KV Cache Compression Techniques**  
+   N. Javidnia, B. Darvish Rouhani, F. Koushanfar. *IEEE Custom Integrated Circuits Conference (CICC), 2025.*
 
+2. **Robust and Secure Code Watermarking for Large Language Models via ML/Crypto Codesign**  
+   R. Zhang*, N. Javidnia*, N. Sheybani, F. Koushanfar. *ACM Transactions on AI Security and Privacy (TAISAP), 2026.*  
+   *Equal contribution.*
 
+3. **SWaRL: Safeguard Code Watermarking via Reinforcement Learning**  
+   N. Javidnia, R. Zhang, A. Kundu, F. Koushanfar. *arXiv preprint, 2026.*
 
+4. **AttestLLM: Efficient Attestation Framework for Billion-scale On-device LLMs**  
+   R. Zhang, Y. Zhao, N. Javidnia, M. Zheng, F. Koushanfar. *Design Automation Conference (DAC), 2026.*
+
+5. **Closing the Loop: Overcoming the Tool-Feedback Gap in Agentic Hardware Design**  
+   M. Tarighat, K. I. Gubbi, N. Javidnia, N. Marosok, et al. *IEEE International Symposium on Quality Electronic Design (ISQED), 2026.*
+
+6. **Agentic AI for Chip Design Verification: Failure Modes, Metrics, and Coverage Closure**  
+   N. Marosok, M. Halm, K. I. Gubbi, M. Tarighat, N. Javidnia, et al. *IEEE International Symposium on Quality Electronic Design (ISQED), 2026.*
+
+7. **CryptoGen: Secure Transformer Generation with Encrypted KV-Cache Reuse**  
+   H. Zhang, N. Javidnia, S. Pardeshi, Q. Lou, F. Koushanfar. *arXiv preprint, 2026.*
+
+8. **Llama-3.1-FoundationAI-SecurityLLM-Reasoning-8B Technical Report**  
+   Z. Yang, et al. *Technical Report, arXiv, 2026.*
